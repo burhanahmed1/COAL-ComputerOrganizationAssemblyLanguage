@@ -79,6 +79,7 @@ fac_num: dw 6,120,24,40320,5040
 ```
 
 ## Task 13 :
+Difference of two sets (S1-S2) is a set having elements of S1 which are NOT Present in S2, see following examples for detail. Your task is to write a subroutine in Assembly Language that finds Difference of two sets (S1-S2). Note that both the sets are sorted and have distinct elements only.
 
 ## Task 14 :
 
