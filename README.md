@@ -40,6 +40,7 @@ Load Cx with contents of memory location 250 using direct addressing.
 Write a program which adds the contents of the following array using register + offset addressing. Array dw 111. 999, 888, 888, 11, 99, 88, 88, 1, 9, 8, 8
 
 ## Task 6 :
+Initialize AX with last 4 digits of your roll number (for example, if your roll number is 16L-1105 then AX should be initialized with 1105).
 
 ## Task 7 :
 
