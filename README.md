@@ -66,6 +66,17 @@ f = (A × B) + {A, B}
 Differentiate between Near, Far and Short Jumps. Write your own assembly language programs and demonstrate how these jumps have been taken.
 
 ## Task 12 :
+Given any array of unsigned numbers nums, generate factorial of each number in nums and store in fac_num array.
+
+initial values of array:
+```
+nums: dw 3,5,4,8,7
+fac_num: dw 0,0,0,0,0
+```
+after running code
+```
+fac_num: dw 6,120,24,40320,5040
+```
 
 ## Task 13 :
 
