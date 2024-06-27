@@ -56,6 +56,11 @@ f = (A||B)&&(A XOR 0x1BCD)
 || is bitwise OR operation, && is bitwise AND operation whereas XOR is bitwise XOR operation.
 
 ## Task 10 :
+Initialize AX with last 4 digits of your roll number (for example, if your roll number is 16L-1105 then AX should be initialized with 1105). Store AX' in BX. Make a 32-bit memory variable f, initialize it with 0 and compute
+```
+f = (A × B) + {A, B}
+```
+× is Multiplication operation, + is Addition operation whereas {A, B} concatenates 16-bit A and B to form 32-bit number.
 
 ## Task 11 :
 
