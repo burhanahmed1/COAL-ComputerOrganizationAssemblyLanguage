@@ -15,6 +15,13 @@ Write an assembly language program which fulfills the following:
 2. Modify the program in part a using a single memory label, n, for inputs and result.
 
 ## Task 3 :
+Write a program which fulfills the following requirements:
+Ax = 200h
+Bx=150h
+Memory location 250 =50h
+Memory Location 200= 25h
+Array = {1,2,7,5,10}
+Load Ax with contents of memory location 200 using indirect addressing
 
 ## Task 4 :
 
