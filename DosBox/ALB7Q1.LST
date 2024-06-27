@@ -1,0 +1,23 @@
+     1                                  [org 0x0100]
+     2                                  
+     3                                  ; Define the delay subroutine
+     4                                  delay:
+     5 00000000 B90500                      mov cx, 5 ; 5 seconds
+     6                                      l1:
+     7 00000003 BAA086                          mov dx, 100000
+     8                                          nestedloop:
+     9 00000006 4A                                  dec dx
+    10 00000007 75FD                                jnz nestedloop
+    11 00000009 49                              dec cx
+    12 0000000A 75F7                            jnz l1
+    13 0000000C C3                          ret
+    14                                  
+    15                                  ; Start the program
+    16                                  start:
+    17                                  
+    18                                      ; Call the delay subroutine
+    19 0000000D E8F0FF                      call delay
+    20                                  
+    21                                      ; Exit the program
+    22 00000010 B8004C                      mov ax, 0x4c00
+    23 00000013 CD21                        int 0x21
