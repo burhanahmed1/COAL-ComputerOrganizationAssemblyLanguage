@@ -43,6 +43,7 @@ Write a program which adds the contents of the following array using register + 
 Initialize AX with last 4 digits of your roll number (for example, if your roll number is 16L-1105 then AX should be initialized with 1105).
 
 ## Task 7 :
+Modify the program in task 6 to swap two bits
 
 ## Task 8 :
 
