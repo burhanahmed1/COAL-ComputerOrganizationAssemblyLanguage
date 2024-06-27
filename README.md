@@ -63,6 +63,7 @@ f = (A × B) + {A, B}
 × is Multiplication operation, + is Addition operation whereas {A, B} concatenates 16-bit A and B to form 32-bit number.
 
 ## Task 11 :
+Differentiate between Near, Far and Short Jumps. Write your own assembly language programs and demonstrate how these jumps have been taken.
 
 ## Task 12 :
 
