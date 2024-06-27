@@ -4,6 +4,12 @@
 The practice files are from Task1 to Task26, and Acute Triangle, Right Triangle, Diamond, VowelCount, Xenzia and Xenzia1.
 
 ## Task 1 :
+Write an assembly language program which fulfills the following:
+1. Load 25h to Ax register
+2. Swap contents of Ax and Bx
+3. Load the contents of memory location [0x270] in Cx.
+4. Define an array of num = [ 12,25,10] and load the contents of array in Ax using index addressing. [hint: array is defined as: num: db 1, 2 at the end of code]
+
 
 ## Task 2 :
 
