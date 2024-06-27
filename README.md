@@ -82,6 +82,12 @@ fac_num: dw 6,120,24,40320,5040
 Difference of two sets (S1-S2) is a set having elements of S1 which are NOT Present in S2, see following examples for detail. Your task is to write a subroutine in Assembly Language that finds Difference of two sets (S1-S2). Note that both the sets are sorted and have distinct elements only.
 
 ## Task 14 :
+Initialize AX with last 4 digits of your roll number as Hexadecimal number (for example, if your roll number is 16L-4195 then AX should be initialized with 0x4195). Write a subroutine which receives AX as input and returns number of 1s in AX.
+n = binary_ones(Roll #)
+
+For example, # of 1s in 0x 4195 is
+
+n = ones(0x4195) = ones(0100_0001_1001_0101) = 6
 
 ## Task 15 :
 
