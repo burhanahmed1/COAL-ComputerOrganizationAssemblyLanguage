@@ -90,6 +90,7 @@ For example, # of 1s in 0x 4195 is
 n = ones(0x4195) = ones(0100_0001_1001_0101) = 6
 
 ## Task 15 :
+A number pyramid (we call it Al-Khwarizmi Pyramid). This pyramid is expanding based on the value of s, its size. Write a program which uses s = n + 5 (n from Activity 2) as size of Al-Khwarizmi Pyramid and returns the cumulative sum. For example, if n = 6 then s = 11, and program should return 506.
 
 ## Task 16 :
 
