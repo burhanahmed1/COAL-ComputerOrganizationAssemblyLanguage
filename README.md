@@ -37,6 +37,7 @@ Array = {1,2,7,5,10}
 Load Cx with contents of memory location 250 using direct addressing.
 
 ## Task 5 :
+Write a program which adds the contents of the following array using register + offset addressing. Array dw 111. 999, 888, 888, 11, 99, 88, 88, 1, 9, 8, 8
 
 ## Task 6 :
 
