@@ -97,34 +97,95 @@ Write a subroutine which uses nested loops for creating a delay of around 3-5 se
 Note: Do not use any special commands or interrupts for creating any delay.
 
 ## Task 17 :
+STOS Example – Clearing the Screen
+• LODS Example – String Printing
+• SCAS Example – String Length
+• MOVS Example – Screen Scrolling
 
 ## Task 18 :
+Use the subroutines developed in Task 16 and Task 17 to create an animation (of Start or End Screen) which shows the following information about you (every message with delay) as shown
+``` txt
+Name : Burhan Gujjar
+Institute : FAST School of Computing
+Batch : 2022
+Roll # 7520
+Email ID : l227520@lhr.nu.edu.pk
+Address : Lahore,Pakistan
+Features : Punctual, Brave
+```
+
 
 ## Task 19 :
+Write a program that prints and prints the following messages: one message per keypress.
+``` txt
+Hi- I am Burhan Gujjar
+I am a patriot
+I am from Fast
+My Roll # is 22L-7520
+```
+Expected output after 4 key presses
+
 
 ## Task 20 :
+You need to draw 4 lines creating a diamond shape and satisfying the coordinates and increment or decrement as per requirement of the line.
 
 ## Task 21 :
+Your task is to get two keystrokes using keyboard interrupt number 0x16 one after the other. On the first keystroke, regardless of which key is pressed, you should clear the screen. The following should be done on second keystroke:
+1. If you press ‘a’, your program should display “Hi, you pressed a”.
+2. If you press ‘b’, your program should display “Hi, you pressed b”.
+3.For any other case your program should display “Hi, you entered wrong credentials”.
+4. After two keystrokes, your program should terminate.
 
 ## Task 22 :
+Write a TSR takes name of the student and then shows it onto the screen according to given rules:
+
+• While left shift is pressed, the name should be displayed on screen.
+• If left shift is released, your screen should be cleared
+• For any other buttons, your code should not do anything
+
+Scan Code (Left Shift Press): 0x2a
+Scan Code (Right Shift Press): 0x36.
 
 ## Task 23 :
+Write a program to make an asterisk travel the border of the screen, from upper left to upper right to lower right to lower left and back to upper left indefinitely.
 
 ## Task 24 :
+Write a program taskOne that starts printing characters ‘*’ starting from top left corner of the screen moving to top right then to bottom right to the bottom left to top left in an infinite loop. Verify your program. Perform all the functionality in one function. Do not use function call inside taskOne.
 
 ## Task 25 :
+Write a subroutine reverses the contents of a given string. 
+
+For example, if it is provided the string
+
+String1 DB “I am Mr X”, ‘0’
+
+It should return
+
+String2 DB “X rM ma I”, ‘0’
 
 ## Task 26 :
+Write a subroutine which copies contents of string1 into another string but without spaces and punctuation marks. For example, if it is provided the following string
+
+String1 DB “Mr. Ali, Usman, & Anwar! Doing what???? want to travel????”, ‘0’
+
+It should return
+
+String2 DB “MrAliUsmanAnwarDoingwhatwanttotravel”, ‘0’
 
 ## Acute Triangle :
+Assembly Language code for creating an Acute Angled Triangle.
 
 ## Right Triangle :
+Assembly Language code for creating a Right Angled Triangle.
 
 ## Diamond :
+Assembly Language code for creating a Diamond.
 
 ## Vowel Count :
+Assembly Language code for counting the number of Vowels in a given string.
 
 ## Xenzia :
+Code for Xenzia.
 
 ## Xenzia1 :
-
+A different approach for Xenzia.
