@@ -10,8 +10,9 @@ Write an assembly language program which fulfills the following:
 3. Load the contents of memory location [0x270] in Cx.
 4. Define an array of num = [ 12,25,10] and load the contents of array in Ax using index addressing. [hint: array is defined as: num: db 1, 2 at the end of code]
 
-
 ## Task 2 :
+1. Write a program which adds five numbers using memory variables n1, n2, n3, n4, n5. Initialize the memory variables to 10, 20, 30, 40, 50. Make a new variable, sum, which stores the sum of all.
+2. Modify the program in part a using a single memory label, n, for inputs and result.
 
 ## Task 3 :
 
