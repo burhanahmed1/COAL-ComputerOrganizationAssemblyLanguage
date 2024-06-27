@@ -46,6 +46,7 @@ Initialize AX with last 4 digits of your roll number (for example, if your roll 
 Modify the program in task 6 to swap two bits
 
 ## Task 8 :
+Modify your program in Task 6 and 7 to swap two nibbles
 
 ## Task 9 :
 
